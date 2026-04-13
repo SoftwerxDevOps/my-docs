@@ -19,10 +19,14 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
  
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+ 
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
@@ -37,29 +41,19 @@ const config = {
   ],
  
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/softwerx-social-card.jpg',
       colorMode: {
-  defaultMode: 'light',
-  disableSwitch: false,
-  respectPrefersColorScheme: false,
-},
-navbar: {
-  title: 'Softwerx',
-  logo: {
-    alt: 'Softwerx Logo',
-    src: 'img/logo.png',
-  },
-  items: [
-    {
-      type: 'docSidebar',
-      sidebarId: 'tutorialSidebar',
-      position: 'left',
-      label: 'Documentation',
-    },
-  ],
-},
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+      navbar: {
+        title: 'Softwerx',
+        logo: {
+          alt: 'Softwerx Logo',
+          src: 'img/logo.png',
+        },
         items: [
           {
             type: 'docSidebar',
@@ -68,7 +62,6 @@ navbar: {
             label: 'Documentation',
           },
         ],
-        style: 'primary',
       },
       footer: {
         style: 'dark',
