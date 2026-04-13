@@ -1,4 +1,4 @@
-  ---
+---
 title: RACI Matrix
 sidebar_label: RACI Matrix
 ---
