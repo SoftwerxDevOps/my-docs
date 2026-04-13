@@ -49,7 +49,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'Softwerx',
+        title: '',
         logo: {
           alt: 'Softwerx Logo',
           src: 'img/logo.png',
