@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/secure365-mdr',
+                to: '/docs/secure365',
               },
             ],
           },
